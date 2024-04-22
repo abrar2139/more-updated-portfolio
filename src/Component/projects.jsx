@@ -19,7 +19,7 @@ const Projects = () => {
       <div className="p-4 mt-5 lg:w-1/3 h-96">
       <div id='parent-img' className="h-full w-full  cursor-pointer  bg-gray-100 bg-opacity-75 rounded-lg overflow-hidden text-center relative  transition-all duration-500 ease-in-out">
           <img src={img2} alt="img1"  className='im cursor-pointer h-full w-full hover:transform-gpu hover:scale-105 transition duration-500 ease-in-out'/>
-          <a href="https://technical-set.vercel.app/" target='_blank' rel='noopener noreferrer'> <div id="second" className="cursor-pointer absolute top-0 left-0 h-full w-full opacity-0 flex justify-center items-center bg-black hover:opacity-50 hover:bg-gray-600 transition duration-500 ease-in-out"><p className='text-6xl  font-extrabold  bg-gradient-to-r from-yellow-600 to-slate-900  text-transparent bg-clip-text relative'>Second Project</p></div></a>
+          <a href="https://ecommerce-set.netlify.app" target='_blank' rel='noopener noreferrer'> <div id="second" className="cursor-pointer absolute top-0 left-0 h-full w-full opacity-0 flex justify-center items-center bg-black hover:opacity-50 hover:bg-gray-600 transition duration-500 ease-in-out"><p className='text-6xl  font-extrabold  bg-gradient-to-r from-yellow-600 to-slate-900  text-transparent bg-clip-text relative'>Second Project</p></div></a>
         </div>
       </div>
       <div className="p-4 mt-5 lg:w-1/3 h-96">
