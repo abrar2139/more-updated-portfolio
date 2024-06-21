@@ -34,7 +34,7 @@ const Contact2 = () => {
     //     message: message.value}
     
     try{
-      let response = await fetch("https://nodemailer-ab.vercel.app/send", {
+      let response = await fetch("https://new-mvc-nodemailer.vercel.app/send", {
         mode:"cors",
         method:"POST",
         headers:{
