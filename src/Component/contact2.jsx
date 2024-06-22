@@ -10,6 +10,26 @@ const Contact2 = () => {
         email:'',
         message:'',
     });
+    const [Dimention , setDimention] = useState({width:window.innerWidth,height:window.innerHeight})
+  const [confettiActive, setConfettiActive] = useState(false);
+
+  const detectSize = () =>{
+    setDimention({width:window.innerWidth,height:window.innerHeight})
+  }
+
+  useEffect(()=>{
+    window.addEventListener('resize', detectSize)
+    return()=>{
+    window.removeEventListener('resize', detectSize)
+
+    }
+  },[Dimention])
+  const handleConfettiRun = () => {
+    setConfettiActive(true);
+    setTimeout(() => {
+      setConfettiActive(false);
+    }, 6000); // Stop confetti after 5 seconds
+  };
     const changeHandler = (e) =>{
       const {name , value} = e.target;
       setFormData({ ...formData, [name]: value});
@@ -43,6 +63,7 @@ const Contact2 = () => {
       });
       if (response.ok) {
         toast.success('Message successfully sent!');
+        handleConfettiRun();
         // setStatus('Send');
         setFormData({ name:'', email:'', message:'' }); // Clear form fields
       } else {
@@ -61,10 +82,6 @@ const Contact2 = () => {
     
     // toast.success('Message successfully sent!')
     // setTimeout(()=>window.location.reload(true),6000)
-
-     
-        
-
 
   return (
    <>
@@ -102,6 +119,12 @@ const Contact2 = () => {
       <button type='submit' value="Send" className="text-white hover:text-gray-600 bg-slate-600 border-0 py-2 mb-2 px-6 focus:outline-none hover:bg-white rounded-xl text-2xl font-bold" disabled={status !== "Send"}>{status}</button>
     </form>
   </div>
+     {confettiActive &&
+  <ReactConfetti style={{zIndex:"9", position:"absolute",left:"0",top:"70px"}}
+width={Dimention.width}
+height={Dimention.height}
+tweenDuration={5000}
+/>}
 </section>
    </>
   );
