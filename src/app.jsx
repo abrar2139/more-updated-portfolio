@@ -15,7 +15,7 @@ const App = () => {
       },4000)
     },[])
   return (
-    <div className='relative bg-gray-600'>   
+    <div className='relative bg-gray-600 overflow-hidden'>   
       {       
            loading?
              <div className="h-screen w-full flex justify-center items-center">
