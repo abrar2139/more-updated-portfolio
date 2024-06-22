@@ -60,10 +60,7 @@ export const Homecomponent = () => {
   </div>
 </span></h2>
            
-           <Link to='contact' smooth={true} offset={-10}  duration={900}
-             className='bg-transparent hover:bg-amber-600 text-amber-700
-             hover:text-slate-600 text-xl sm:text-1xl md:text-2xl lg:text-3xl pb-[5px] px-1 sm:pt-1 sm:pb-2 sm:px-2 md:px-3 md:pb-2 md:py-1 lg:px-4 lg:pb-2 lg:py-1 xl:px-4 xl:pb-2 xl:py-1  border border-amber-700
-             hover:border-transparent rounded cursor-pointer leading-10 text-center'>Contact us</Link>
+           <Link to='contact' smooth={true} offset={-10}  duration={900} className='bg-transparent hover:bg-amber-600 text-amber-700 hover:text-slate-600 text-xl sm:text-1xl md:text-2xl lg:text-3xl pb-[5px] px-1 sm:pt-1 sm:pb-2 sm:px-2 md:px-3 md:pb-2 md:py-1 lg:px-4 lg:pb-2 lg:py-1 xl:px-4 xl:pb-2 xl:py-1  border border-amber-700 hover:border-transparent rounded cursor-pointer leading-10 text-center'>Contact us</Link>
           </div>
           <div className='home-left rounded-full flex justify-center items-center w-screen '>
             <img src={Abrar}  alt="developer" className='hover:transform-gpu hover:scale-105 transition duration-700 ease-in-out  w-52 h-52  sm:w-64 sm:h-64 md:w-80 md:h-80 lg:w-96 lg:h-96   rounded-full border-8  border-amber-900 hover:border-amber-950  hover:opacity-60'/>
