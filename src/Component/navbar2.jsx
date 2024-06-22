@@ -30,9 +30,9 @@ export const NavbarComponent = () => {
                 
                 
                     <ul className='text-center text-gray-700 flex items-center justify-center flex-col sm:flex-col md:flex-row lg:flex-row xl:flex-row mt-7 sm:mt-7 md:mt-0 lg:mt-0 xl:mt-0 font-semibold text-[20px]'>
-                    <Link to='home' smooth={true} offset={-50}  duration={900}  className="mr-0 sm:mr-0 md:mr-5 lg:mr-5 xl:mr-5 my-3 text-center sm:my-3 md:my-0 lg:my-0 xl:my-0 hover:text-gray-900 cursor-pointer ">Home</Link>
-        <Link to='about' smooth={true} offset={-80}  duration={900} className="mr-0 sm:mr-0 md:mr-5 lg:mr-5 xl:mr-5 mb-3 sm:mb-3 md:mb-0 lg:mb-0 xl:mb-0  text-center hover:text-gray-900 cursor-pointer">About</Link>
-        <Link to='projects' smooth={true} offset={-50}  duration={900} className="mr-0 sm:mr-0 md:mr-5 lg:mr-5 xl:mr-5 mb-3 text-center sm:mb-3 md:mb-0 lg:mb-0 xl:mb-0  hover:text-gray-900 cursor-pointer">Projects</Link>
+                    <Link to='home' smooth={true} offset={-50}  duration={900}  className="mr-0 sm:mr-0 md:mr-10 lg:mr-10 xl:mr-10 my-3 text-center sm:my-3 md:my-0 lg:my-0 xl:my-0 hover:text-gray-900 cursor-pointer ">Home</Link>
+        <Link to='about' smooth={true} offset={-80}  duration={900} className="mr-0 sm:mr-0 md:mr-10 lg:mr-10 xl:mr-10 mb-3 sm:mb-3 md:mb-0 lg:mb-0 xl:mb-0  text-center hover:text-gray-900 cursor-pointer">About</Link>
+        <Link to='projects' smooth={true} offset={-50}  duration={900} className="mr-0 sm:mr-0 md:mr-10 lg:mr-10 xl:mr-10 mb-3 text-center sm:mb-3 md:mb-0 lg:mb-0 xl:mb-0  hover:text-gray-900 cursor-pointer">Projects</Link>
         
         <Link to='contact' smooth={true} offset={-10}  duration={900}  className=" mb-3 text-center sm:mb-3 md:mb-0 lg:mb-0 xl:mb-0  hover:text-gray-900 cursor-pointer">Contact</Link>
 
