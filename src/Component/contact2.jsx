@@ -121,7 +121,7 @@ const Contact2 = () => {
     </form>
   </div>
      {confettiActive &&
-  <ReactConfetti style={{zIndex:"9", position:"absolute",left:"0",top:"70px"}}
+  <ReactConfetti style={{zIndex:"500", position:"absolute",left:"0",top:"70px"}}
 width={Dimention.width}
 height={Dimention.height}
 tweenDuration={5000}
