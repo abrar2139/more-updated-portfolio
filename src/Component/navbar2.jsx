@@ -9,7 +9,7 @@ export const NavbarComponent = () => {
       let [open, setOpen] =useState(false);
 
     return (
-        <div className='shadow-md z-10 w-full sticky top-0 overflow-hidden '>
+        <div className='shadow-md z-10 w-full sticky top-0  '>
            <div className='md:flex items-center justify-between bg-amber-600 py-6 sm:py-6 md:py-6 lg:py-6 xl:py-6
             md:px-10 px-7 flex-wrap'>
             {/* logo section */}
