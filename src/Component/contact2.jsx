@@ -1,5 +1,6 @@
 import React,{ useEffect, useState } from 'react';
 import { toast } from 'react-toastify';
+import ReactConfetti  from 'react-confetti'
 
 const Contact2 = () => {
     const phoneNumber = "03035829862";
